@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+  <title>Frontend Mentor | News homepage</title>
+  <link rel="stylesheet" href="css/reset.css">
+</head>
+
+<body>
+  <h1 class="sr-only">News homepage</h1>
+  <header class="header">
+    <img src="assets/images/logo.svg" alt="Logo of the website">
+    <nav class="header__navigation">
+      <ul class="header__nav-list">
+        <li><a class="header__nav-link" href="#home">Home</a></li>
+        <li><a class="header__nav-link" href="#about">New</a></li>
+        <li><a class="header__nav-link" href="#services">Popular</a></li>
+        <li><a class="header__nav-link" href="#contact">Trending</a></li>
+        <li><a class="header__nav-link" href="#contact">Categories</a></li>
+      </ul>
+      <!-- <button class="toggle-button" aria-label="Toggle Navigation">
+      <span class="hamburger-icon">
+        <svg width="40" height="17" xmlns="http://www.w3.org/2000/svg">
+          <g fill="#00001A" fill-rule="evenodd">
+            <path d="M0 0h40v3H0zM0 7h40v3H0zM0 14h40v3H0z" />
+            <path d="M0 0h40v3H0z" />
+          </g>
+        </svg>
+      </span>
+    </button> -->
+    </nav>
+  </header>
+  <main>
+    <section class="top-headline">
+      <picture class="top-headline__hero-image">
+        <source media="(min-width:650px)" srcset="assets/images/image-web-3-desktop.jpg">
+        <source media="(min-width:465px)" srcset="assets/images/image-web-3-mobile.jpg">
+        <img src="assets/images/image-web-3-mobile.jpg"
+          alt="Colorful geometrical shapes lying flat, stacked on one another">
+      </picture>
+      <article class="top-headline__content">
+        <h3 class="heading-primary">The Bright Future of Web 3.0?</h3>
+        <p class="top-headline__description">
+          We dive into the next evolution of the web that claims to put the power of the platforms back into the hands
+          of the
+          people.
+          But is it really fulfilling its promise?
+        </p>
+        <a class="btn btn--read-more" href="#">Read more</a>
+      </article>
+    </section>
+    <section class="product-features">
+      <h2 class="sr-only">Latest Headlines</h2>
+      <ul class="product-features__list">
+        <li class="feature-item">
+          <img src="assets/images/image-retro-pcs.jpg" alt="Retro hardware sitting on a white table">
+          <span class="item-number">01</span>
+          <h3 class="feature-heading"><a href="#">Reviving Retro PCs</a></h3>
+          <p class="feature-description">What happens when old PCs are given modern upgrades?</p>
+        </li>
+        <li class="feature-item">
+          <img src="assets/images/image-top-laptops.jpg" alt="Close up of a backlit laptop keyboard">
+          <span class="item-number">02</span>
+          <h3 class="feature-heading"><a href="#">Top 10 Laptops of 2022</a></h3>
+          <p class="feature-description">Our best picks for various needs and budgets.</p>
+        </li>
+        <li class="feature-item">
+          <img src="assets/images/image-gaming-growth.jpg"
+            alt="White joystick floating onto the hands of a person wearing a black-strapped watch">
+          <span class="item-number">03</span>
+          <h3 class="feature-heading"><a href="#">The Growth of Gaming</a></h3>
+          <p class="feature-description">How the pandemic has sparked fresh opportunities.</p>
+        </li>
+      </ul>
+    </section>
+    <aside class="sidebar">
+      <span class="category category--new">New</span>
+      <h2 class="sr-only">Breaking News</h2>
+      <ul class="sidebar__list">
+        <li class="sidebar__item">
+          <h3 class="item-heading"><a href="#">Hydrogen VS Electric Cars</a></h3>
+          <p class="item-description">Will hydrogen-fueled cars ever catch up to EVs?</p>
+        </li>
+        <li class="sidebar__item">
+          <h3 class="item-heading"><a href="#">The Downsides of AI Artistry</a></h3>
+          <p class="item-description">What are the possible adverse effects of on-demand AI image generation?</p>
+        </li>
+        <li class="sidebar__item">
+          <h3 class="item-heading"><a href="#">Is VC Funding Drying Up?</a></h3>
+          <p class="item-description">Private funding by VC firms is down 50% YOY. We take a look at what that means.
+          </p>
+        </li>
+      </ul>
+    </aside>
+  </main>
+
+</body>
+
+</html>
