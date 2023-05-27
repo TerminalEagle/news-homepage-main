@@ -93,7 +93,8 @@ main {
 }
 
 .header__nav-link:is(:link, :visited) {
-    color: var(--neutral-grayish-blue);
+    color: var(--neutral-dark-grayish-blue);
+
     text-decoration: none;
 }
 
@@ -132,7 +133,6 @@ main {
 }
 
 .top-headline__description {
-    color: var(--neutral-grayish-blue);
     line-height: 1.7;
 }
 
@@ -182,7 +182,8 @@ main {
 }
 
 .sidebar__list .item-description {
-    color: var(--neutral-grayish-blue);
+    color: var(--neutral-dark-grayish-blue);
+
     line-height: 1.7;
     margin-top: 8px;
 }
@@ -232,7 +233,7 @@ main {
 }
 
 .news-item__description {
-    color: var(--neutral-grayish-blue);
+    color: var(--neutral-dark-grayish-blue);
     line-height: 1.7;
 }
 
