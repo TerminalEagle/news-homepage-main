@@ -9,13 +9,19 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
 
   <title>Frontend Mentor | News homepage</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/utils.css">
+  <script src="js/script.js" defer></script>
 </head>
 
-<body>
+<body class="max-width-wrapper">
   <h1 class="sr-only">News homepage</h1>
   <header class="header">
-    <img src="assets/images/logo.svg" alt="Logo of the website">
+    <img class="website-logo" src="assets/images/logo.svg" alt="Logo of the website">
     <nav class="header__navigation">
       <ul class="header__nav-list">
         <li><a class="header__nav-link" href="#home">Home</a></li>
@@ -24,17 +30,11 @@
         <li><a class="header__nav-link" href="#contact">Trending</a></li>
         <li><a class="header__nav-link" href="#contact">Categories</a></li>
       </ul>
-      <!-- <button class="toggle-button" aria-label="Toggle Navigation">
-      <span class="hamburger-icon">
-        <svg width="40" height="17" xmlns="http://www.w3.org/2000/svg">
-          <g fill="#00001A" fill-rule="evenodd">
-            <path d="M0 0h40v3H0zM0 7h40v3H0zM0 14h40v3H0z" />
-            <path d="M0 0h40v3H0z" />
-          </g>
-        </svg>
-      </span>
-    </button> -->
     </nav>
+    <button class="btn btn--toggle mobile-only" aria-label="Icon open-navigation">
+      <img class="icon-nav-open" src="assets/images/icon-menu.svg" alt="Icon open-navigation">
+      <img class="icon-nav-close hidden" src="assets/images/icon-menu-close.svg" alt="Icon close-navigation">
+    </button>
   </header>
   <main>
     <section class="top-headline">
